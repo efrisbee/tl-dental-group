@@ -1,0 +1,31 @@
+{
+  "name": "tl-dental-group",
+  "version": "1.0.0",
+  "description": "TL Dental Group website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efrisbee/tl-dental-group.git"
+  },
+  "keywords": [
+    "TL",
+    "dental",
+    "group",
+    "dentist",
+    "website",
+    "georgia",
+    "woodstock"
+  ],
+  "author": "Nathan Skinner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efrisbee/tl-dental-group/issues"
+  },
+  "homepage": "https://github.com/efrisbee/tl-dental-group#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
