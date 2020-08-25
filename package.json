@@ -4,7 +4,12 @@
   "description": "TL Dental Group website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --style=compressed views/assets/styles/sass/main.scss views/assets/styles/css/main.css",
+    "watch:eleventy": "npx eleventy --serve",
+    "watch:sass": "npm run sass -- --watch",
+    "start": "npm-run-all sass --parallel watch:*"
+
   },
   "repository": {
     "type": "git",
@@ -26,6 +31,10 @@
   },
   "homepage": "https://github.com/efrisbee/tl-dental-group#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "sass": "^1.26.10"
   }
 }
